@@ -1,0 +1,37 @@
+{
+    "name": "@tverstraten/eslint-config-base",
+    "version": "1.0.25",
+    "description": "My default Eslint configuration",
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tverstraten/eslint-config-base.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tverstraten/eslint-config-base/issues"
+    },
+    "homepage": "https://github.com/tverstraten/eslint-config-base#readme",
+    "files": [
+        "src/*.js"
+    ],
+    "main": "src/index.js",
+    "keywords": [
+        "eslint",
+        "typescript",
+        "javascript"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "eslint-plugin-spellcheck": "^0.0.19"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.10.2",
+        "@typescript-eslint/parser": "^5.10.2",
+        "eslint": ">= 3",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4",
+        "prettier": "^2.5.1"
+    }
+}
