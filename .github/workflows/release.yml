@@ -2,7 +2,7 @@ name: Npm.js Publish
 
 on:
     release:
-        branches: [main]
+        types: [published]
 
 jobs:
     build:
