@@ -1,9 +1,7 @@
 name: Npm.js Publish
 
 on:
-    push:
-        branches: [main]
-    pull_request:
+    release:
         branches: [main]
 
 jobs:
@@ -16,7 +14,7 @@ jobs:
                   node-version: 16
             - run: npm ci
 
-    publish-gpr:
+    publish:
         needs: build
         runs-on: ubuntu-latest
         permissions:

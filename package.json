@@ -1,6 +1,6 @@
 {
     "name": "@tverstraten/eslint-config-base",
-    "version": "1.0.26",
+    "version": "1.0.27",
     "description": "My default Eslint configuration",
     "license": "UNLICENSED",
     "repository": {
