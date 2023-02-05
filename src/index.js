@@ -123,7 +123,7 @@ module.exports = {
 					"bccd",
 					"bitbucket",
 					"bool",
-					"bll",
+					"bll2",
 					"Cardinality",
 					"ccd",
 					"charset",
